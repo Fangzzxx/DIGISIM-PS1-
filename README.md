@@ -1,6 +1,5 @@
-# DIGISIM-PS1-
-## Implementation of Singly Linked List using Digital Circuit
-
+# Implementation of Singly Linked List using Digital Circuit
+## Digital Circuit
 **Problem Statement**
 
 - The basic problem statement is traversing a linked list and finding the maximum value smaller than an input number X.
@@ -33,4 +32,13 @@ Now, we just have to calculate the maximum bank amount which Harshad Mehta can r
 -	For 7 segment display we have used **Shift Add 3/Double Dabble Algorithm**. You can read about it [here](https://www.youtube.com/watch?v=IBgiB7KXfEY).
 
 Here in this circuit instead of combinational logic, we used an RTL design technique using registers to shift and add for the conversion.
+
+## SOLUTION
+
+[Proteus Design File](https://github.com/Fangzzxx/DIGISIM-PS1-/blob/main/digisim_ps1_part2.DSN)
+![Solution](https://github.com/Fangzzxx/DIGISIM-PS1-/blob/main/LinkedList.png)
+
+## WORKING
+
+You can see the working video of our circuit [here](https://github.com/Fangzzxx/DIGISIM-PS1-/blob/main/Recording.mp4) and the clock frequency is 5 Hz.
 
