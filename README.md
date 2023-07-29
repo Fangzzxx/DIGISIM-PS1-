@@ -1,12 +1,12 @@
 # Implementation of Singly Linked List using Digital Circuit
-## Digital Circuit
-**Problem Statement**
+## :Digital Circuit:
+### Problem Statement
 
 - The basic problem statement is traversing a linked list and finding the maximum value smaller than an input number X.
 - The linked list is fed in the form of a binary file through a ROM starting from address 0, where address A holds the node value and address A+1 stores the address of the next node.
 - The entire circuit has to be made using the 7400 IC series which includes IC's like Multiplexers, Registers, Counters, Flip Flops, combinational gates etc. [(Entire Problem Statement)](https://github.com/Fangzzxx/DIGISIM-PS1-/blob/main/Digisim'21_PS1%20(1).pdf)
 
-**Approach**
+### Approach
 
 The circuit was designed on Proteus EDA software.
 - On a high level, the basic approach is to iterate over the entire linked list and check if the current node value is smaller than the input X and then update the maximum such value.
@@ -16,14 +16,14 @@ The circuit was designed on Proteus EDA software.
 
 The data of the ROM can be changed by using this [python file](https://github.com/Fangzzxx/DIGISIM-PS1-/blob/main/create_bin_file.py). Running this script will a [bin file](https://github.com/Fangzzxx/DIGISIM-PS1-/blob/main/PS1%20(1).bin) which can be loaded into the ROM.
 
-**Traversing through Linked-List**
+### Traversing through Linked-List
 
 - An adder was used to increase the current address by 1 and then give that address to the ROM.
 - The ADDER has two input lines - current address and current address + 1/0, and a select line which is the current mode.
 - Mode 0 maps to the ROM output being the current node value while Mode 1 corresponds to the ROM output being the address of the next node.
 - This mode toggles on every cycle, therefore the time taken to move to the next node is 2 clock cycles.
 
-**Calculation**
+### Calculation
 
 Now, we just have to calculate the maximum bank amount which Harshad Mehta can repay.
 -	When the mode is 0 it means the ROM output is a node value so this value is then sent to the combinational logic.
