@@ -14,7 +14,7 @@ The circuit was designed on Proteus EDA software.
 - Since the hardware cost for the ROM is high only one ROM was used to read both the node value and the address of the next node.
 - Thus there will be two types of data as the ROM output, the node value which will be then proccessed using combinational logic and the address of the next node which will be fed back to the ROM and the cycle goes on until the ROM output is 255(end of list)
 
-The data of the ROM can be changed by using this [python file](https://github.com/Fangzzxx/DIGISIM-PS1-/blob/main/create_bin_file.py). Running this script will a bin file which can be loaded into the ROM.
+The data of the ROM can be changed by using this [python file](https://github.com/Fangzzxx/DIGISIM-PS1-/blob/main/create_bin_file.py). Running this script will a [bin file](https://github.com/Fangzzxx/DIGISIM-PS1-/blob/main/PS1%20(1).bin) which can be loaded into the ROM.
 
 **Traversing through Linked-List**
 
