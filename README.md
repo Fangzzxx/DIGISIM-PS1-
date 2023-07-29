@@ -1,5 +1,5 @@
 # Implementation of Singly Linked List using Digital Circuit
-## Digital Circuit
+## DIGITAL CIRCUIT
 ### Problem Statement
 
 - The basic problem statement is traversing a linked list and finding the maximum value smaller than an input number X.
